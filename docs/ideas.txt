@@ -1,0 +1,7 @@
+- insert codeforces user
+API: https://codeforces.com/apiHelp/methods
+
+- insert leetcode statistics
+API: https://github.com/JeremyTsaii/leetcode-stats-api
+
+

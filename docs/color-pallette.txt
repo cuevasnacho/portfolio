@@ -1,0 +1,11 @@
+// azul y blanco
+#ffffff
+#11257c
+
+// celeste claro y lila
+#8e2ced
+#daedef
+
+// azul y celeste claro
+#b7e9eb
+#08195f
