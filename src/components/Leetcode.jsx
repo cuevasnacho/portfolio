@@ -3,7 +3,6 @@ import styles from './Leetcode.module.css';
 
 function Leetcode() {
   const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -15,7 +14,7 @@ function Leetcode() {
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
-        setError(error.message);
+        console.log(error.message);
       }
     };
     
@@ -24,9 +23,9 @@ function Leetcode() {
 
   return (
     <div className={styles.leetsection}>
-      {error && <p>Error: {error}</p>}
       {data && (
         <div>
+          <h2>Leetcode Problems</h2>
           <p>totalSolved: {data.totalSolved}</p>
           <p>easySolved: {data.easySolved}</p>
           <p>mediumSolved: {data.mediumSolved}</p>

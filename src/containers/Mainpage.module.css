@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -6,19 +11,35 @@
   height: 100vh;
 }
 
-.main__title {
-  margin: 0.3em;
+.main__titles {
+  margin: 2em;
+}
+
+.main__titles > h1 {
+  margin-bottom: 0.3em;
   transition: 0.5s;
 }
 
-.main__title:hover {
-  color: transparent;
-  letter-spacing: 0.1em;
-  -webkit-text-stroke: 2px #08195f;
-  margin: 0.5em;
+@media only screen and (min-width: 1025px) {
+  .main__titles > h1:hover {
+    color: transparent;
+    letter-spacing: 0.1em;
+    -webkit-text-stroke: 2px #08195f;
+    margin-bottom: 0.4em;
+  }
 }
 
-.main__subtitle {
+.main__titles > h4 {
   color: #43454d;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+.main__linksto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects {
+  height: 100vh;
 }
