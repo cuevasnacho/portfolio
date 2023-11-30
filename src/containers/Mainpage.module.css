@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main__title {
+  margin: 0.3em;
+  transition: 0.5s;
+}
+
+.main__title:hover {
+  color: transparent;
+  letter-spacing: 0.1em;
+  -webkit-text-stroke: 2px #08195f;
+  margin: 0.5em;
+}
+
+.main__subtitle {
+  color: #43454d;
+  font-weight: 300;
+}

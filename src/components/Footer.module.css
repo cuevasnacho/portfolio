@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #08195f;
+  margin: 0;
+}
+
+.footer__links {
+  color: #daedef;
+  text-align: left;
+}
+
+.footer__links > li {
+  margin: 0.9em 0;
+}
