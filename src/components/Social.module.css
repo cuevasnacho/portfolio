@@ -1,0 +1,11 @@
+.social {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 2%;
+  bottom: 4%;
+}
+
+.social > a > img {
+  margin: 0 0.4em;
+}

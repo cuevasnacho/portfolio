@@ -1,4 +1,5 @@
 import styles from './Mainpage.module.css';
+import Social from '../components/Social.jsx';
 import Arrowlink from '../components/Arrowlink.jsx';
 import Leetcode from '../components/Leetcode.jsx';
 import Footer from '../components/Footer.jsx';
@@ -22,6 +23,7 @@ function Mainpage() {
           <Arrowlink text='my projects' link={scrollToProjects} />
           <Arrowlink text='skills and courses' link={scrollToProjects} />
         </div>
+        <Social />
       </div>
       <Leetcode />
       <div className={styles.projects} ref={refProjects}>

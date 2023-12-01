@@ -3,7 +3,8 @@
 
   color-scheme: light;
   color: #08195f;
-  background-color: #daedef;
+  background: linear-gradient(95deg, #86a8e7, #91e0ea, #c8e9ec);
+  /*background-color: #daedef;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
