@@ -1,15 +1,28 @@
 .footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 100vw;
   height: 40vh;
   background-color: #08195f;
   margin: 0;
 }
 
-.footer__links {
+.footer__column {
+  display: flex;
+  flex-direction: column;
   color: #daedef;
   text-align: left;
+  margin-top: 2em;
 }
 
-.footer__links > li {
-  margin: 0.9em 0;
+.footer__column > h2 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.footer__column > a {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 0.3em 0;
 }
