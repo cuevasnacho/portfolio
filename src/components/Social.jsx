@@ -6,10 +6,10 @@ import linkedinLogo from '../assets/icons/linkedin-logo.svg';
 function Social() {
   return (
     <div className={styles.social}>
-      <a href={GITHUB} rel='noreferrer' target='_blank'>
+      <a href={GITHUB} rel='noreferrer' target='_blank' title='Github'>
         <img src={githubLogo} alt='github' width={30}/>
       </a>
-      <a href={LINKEDIN} rel='noreferrer' target='_blank'>
+      <a href={LINKEDIN} rel='noreferrer' target='_blank' title='LinkedIn'>
         <img src={linkedinLogo} alt='github' width={30}/>
       </a>
     </div>

@@ -1,5 +1,5 @@
 .social {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: row;
   right: 2%;
@@ -8,4 +8,7 @@
 
 .social > a > img {
   margin: 0 0.4em;
+  padding: 1px;
+  border-radius: 30px;
+  background-color: white;
 }
