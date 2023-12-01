@@ -1,4 +1,12 @@
 .leetsection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   background-color: #ffffff;
   margin: 0;
+  padding-bottom: 3em;
+}
+
+.leetsection__data {
+  text-align: left;
 }
