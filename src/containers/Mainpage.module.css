@@ -41,6 +41,13 @@
   margin-bottom: 3em;
 }
 
-.projects {
-  height: 100vh;
+.projects h1 {
+  font-size: 3em;
+  margin: 1.2em 0;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
