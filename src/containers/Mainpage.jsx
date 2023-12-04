@@ -25,7 +25,7 @@ function Mainpage() {
         <div className={styles.main__linksto}>
           <Arrowlink text='my projects' link={scrollToProjects} />
           <Arrowlink text='skills' link={scrollToProjects} />
-          <Arrowlink text='courses' link={scrollToProjects} />
+          <Arrowlink text='education' link={scrollToProjects} />
         </div>
       </div>
       <div className={styles.projects} ref={refProjects}>
